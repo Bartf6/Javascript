@@ -1,0 +1,42 @@
+#Start
+{
+    position: absolute; 
+    background-color: #ffd800;
+    width: 8%;
+    height: 8vh;
+}
+
+#Start:hover
+{
+    background-color: black;
+    color: orange;
+}
+
+#button
+{
+    position: absolute; 
+    top:  15vh;
+    visibility: hidden;
+}
+
+#table
+{
+    position: absolute;
+    top: 25vh;
+}
+
+table
+{
+    border: 1px solid black;
+}
+
+table td
+{
+    border: 1px solid black;
+}
+
+#resultaat
+{
+    position: absolute;
+    top: 20vh;
+}
