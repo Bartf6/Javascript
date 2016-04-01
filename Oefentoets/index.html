@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <script src="Script.js"></script>
+    </head>
+    <body>
+        <h1>Tarieven zwembad</h1>
+        <table>
+            <tr>
+                <td><p>Wat is uw leeftijd?</p></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="txtveld1" id="leeftijd"></td>
+            </tr>
+            <tr>
+                <td><p>Heeft u een abbonnement?</p></td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="abboja"><label>JA</label></td>
+                <td><input type="radio" id="abbonee"><label>NEE</label></td>
+            </tr>
+            <tr>
+                <td><p>Selecteer type kaart</p></td>
+            </tr>
+            <tr>
+                <td><input type="radio" id="dagkaart"><label>Dagkaart</label></td>
+                <td><input type="radio" id="badenkaart"><label>10-baden kaart</label></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="bereken" value="bereken prijs" onclick="bepaalPrijs()"></td>
+            </tr>
+            <tr>
+                <td><p id="resultaat"></p></td>
+            </tr>
+        </table>
+
+        <p id="forloop1"></p>
+    </body>
+</html>
